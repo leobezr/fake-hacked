@@ -17,7 +17,7 @@ const scrambleWords = () => {
         letters[i] = String.fromCharCode(_rnd(1000000, 6900000));
 
         if (i === 7 && _rnd(1, 10) >= 7) {
-          letters[i] = "Rzeb";
+          letters[i] = " $bezR ".split("").reverse().join("");
         }
       }
 
